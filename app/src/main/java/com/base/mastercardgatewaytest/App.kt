@@ -19,7 +19,7 @@ class App : Application() {
         GatewaySDK.initialize(
             this,
             "TESTMPGSTEST0101",
-            "TESTMPGSTEST0101",
+            "merchant.TESTMPGSTEST0101",
             "https://test-gateway.mastercard.com/",
             GatewayRegion.NORTH_AMERICA,
             uiCustomization, // ✅ Required Parameter

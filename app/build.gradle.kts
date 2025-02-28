@@ -47,5 +47,8 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     implementation ("com.mastercard.gateway:Mobile_SDK_Android:2.0.12")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
 
 }
